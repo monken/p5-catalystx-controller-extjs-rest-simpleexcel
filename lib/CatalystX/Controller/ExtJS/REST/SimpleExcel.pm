@@ -66,7 +66,7 @@ Access C<< /users?content-type=application%2Fvnd.ms-excel >> to get the excel fi
 =head1 DESCRIPTION
 
 This role loads L<Catalyst::Action::Serialize::SimpleExcel> and adds 
-C<< pplication/vnd.ms-excel >> to the type map. When requesting a list of
+C<< application/vnd.ms-excel >> to the type map. When requesting a list of
 objects, this role converts the output to satisfy L<Catalyst::Action::Serialize::SimpleExcel>.
 
 =head1 SEE ALSO
