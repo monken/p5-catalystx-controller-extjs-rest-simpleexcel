@@ -57,7 +57,7 @@ __END__
  package MyApp::Controller::User;
  use Moose;
  extends 'CatalystX::Controller::ExtJS::REST';
- with 'CatalystX::Controller::ExtJS::REST::SimpleExcel';
+ with    'CatalystX::Controller::ExtJS::REST::SimpleExcel';
  
  1;
  
